@@ -22,8 +22,8 @@ jobs:
 
     - name: Compile Java Code
       run: |
-        javac src/addition.java
+        javac addition.java
 
     - name: Run Tests
       run: |
-        java -ea -cp src addition
+        java -ea -cp  addition
