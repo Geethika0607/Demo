@@ -26,4 +26,4 @@ jobs:
 
     - name: Run Tests
       run: |
-        java  -cp  addition
+        java  addition
