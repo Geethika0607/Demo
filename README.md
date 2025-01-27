@@ -1,28 +1,26 @@
-// Java program to add two numbers
-#This is a test commit
-import java.util.Scanner;
+// App.java
+// This is a test commit
+public class App {
 
-public class AddTwoNumbers {
+    // Method to add two numbers
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    // Method to test the add() functionality
+    public static void testAdd() {
+        // Assertions to check if add() works correctly
+        assert add(1, 2) == 3 : "Test Case 1 Failed";
+        assert add(1, -1) == 0 : "Test Case 2 Failed";
+        System.out.println("All Test Cases Passed!");
+    }
+
+    // Main method
     public static void main(String[] args) {
-        // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user for the first number
-        System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
-
-        // Prompt the user for the second number
-        System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
-
-        // Calculate the sum
-        int sum = num1 + num2;
-
-        // Display the result
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-
-        // Close the scanner
-        scanner.close();
+        // Run the test cases
+        testAdd();
     }
 }
 
+
+       
