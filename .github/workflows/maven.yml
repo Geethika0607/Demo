@@ -18,9 +18,9 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: ${{ matrix.java-version }}
-        
+        distribution: 'temurin' # Use the Temurin distribution of Java
 
-    - name: Install dependencies
+    - name: Compile Java Code
       run: |
         javac src/addition.java
 
