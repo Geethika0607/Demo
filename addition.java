@@ -1,5 +1,5 @@
-# App.java
-# This is a test commit
+// App.java
+// This is a test commit
 public class App {
 
     // Method to add two numbers
