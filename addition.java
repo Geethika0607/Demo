@@ -7,7 +7,7 @@ public class App {
         return a + b;
     }
 
-    // Method to test the add() functionality
+   
     public static void testAdd() {
         // Assertions to check if add() works correctly
         assert add(1, 2) == 3 : "Test Case 1 Failed";
