@@ -15,7 +15,7 @@ public class App {
         System.out.println("All Test Cases Passed!");
     }
 
-    // Main method
+    
     public static void main(String[] args) {
         // Run the test cases
         testAdd();
